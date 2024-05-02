@@ -1,0 +1,246 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage[normalem]{ulem}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+� 908-268-9873
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\textbf{Nitesh Bovi}\\
+� niteshbovi25@gmail.com � \uline{linkedin.com/in/nitesh-bovi-430391204}
+\end{quote}\strut
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+� github.com/ni90825
+\end{quote}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+Education
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\textbf{Vivekanand Education Society's Institute Of Technology}\\
+\emph{Bachelor of engineering in Electronics and Telecommunication
+(CGPA: 8.69 / 10.00)}
+\end{quote}\strut
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+May 2024 \emph{Mumbai, Maharashtra}
+\end{quote}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+Experience
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\textbf{Putatoe Solutions Pvt Ltd.}
+\end{quote}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov 2023 -- Present
+\end{minipage} \\
+\midrule()
+\endhead
+\multicolumn{2}{@{}>{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{1.0000} + 2\tabcolsep}@{}}{%
+\begin{minipage}[t]{\linewidth}\raggedright
+\begin{quote}
+\emph{Frontend Developer Intern}\\
+\emph{•} Enhancing an E-commerce platform using React.js, JavaScript and
+CSS3. My efforts were vital in enhancing usability, contributing to
+\textbf{approximately 40\% of the overall improvements},This involved
+implementing features such as \textbf{infi-} \textbf{nite scrolling},
+\textbf{optimized API calls} and \textbf{preventing multiple clicks}.
+
+\emph{•} Developed an \textbf{order tracking system for users,
+facilitating seamless order monitoring}. Furthermore, the
+implemen-tation of a coupon management feature \textbf{empowered
+shopkeepers/service providers to effortlessly create and man-age
+coupons}, enhancing their promotional capabilities.
+
+\emph{•} \textbf{Developed an admin panel, where area managers can
+efficiently track orders and update their status}, This develop- ment
+enhanced functionality across the platform.
+
+\emph{•} Working closely with the Backend and testing teams to enhance
+the frontend of the web app by implementing new features and improving
+existing component
+\end{quote}\strut
+\end{minipage}} \\
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+Projects
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\emph{\textbar{} ReactJS , Redux , Ant-design , ChartJS•}ted a
+\textbf{user-friendly and responsive interface} for viewing real-time
+statistics and live graphs of cryptocur-
+
+\begin{quote}
+rency prices, allowing users to \textbf{track price fluctuations over
+time through interactive graphs}.
+
+\emph{•} Enhanced user experience by allowing users to easily access
+relevant information by \textbf{clicking on cryptocurrency}
+
+\textbf{presented in a card format}, facilitating quick access to
+\textbf{detailed price data and news updates}.
+
+\emph{•} Integrated \textbf{news feeds related to the cryptocurrency
+market and specific cryptocurrency coins} for users to stay
+
+updated, ensuring users have access to the latest news.
+
+\emph{\textbar{} HTML, CSS3 , Vanilla Javascript , Animation on
+scroll•}ped a visually appealing sushi hotel website using HTML, CSS,
+and Vanilla JavaScript to showcase amenities
+
+and services. \textbf{Integrated the AOS package, constituting
+approximately 30\% to 40\% of the enhancements, for en-}
+
+\textbf{hanced visual effects}, thereby improving user experience with
+captivating animations
+
+\emph{•} Seamless functionality across \textbf{various device sizes was
+ensured through responsive design}, offering users a consis-
+
+tent experience.
+
+\emph{•} \textbf{The restaurant menu was showcased in a slider format,
+allowing users to navigate through it by dragging}. This fea-
+
+ture made convenient for users to explore various menu options.
+
+\textbf{OCN (Optical Communication Network) VIRTUAL LAB}
+\emph{\textbar{} HTML, CSS3 , Vanilla Javascript , Chart JS•} Developed
+an online virtual laboratory (OCN Virtual Lab) for students to conduct
+experiments virtually.
+
+\emph{•} Implemented a \textbf{feature where users can input values and
+check calculated results along with generated graphs}
+
+\emph{•} Integrated a \textbf{quiz section where users can solve
+quizzes}, and upon completion, students \textbf{receive certificates if
+they}
+
+\textbf{score above a predefined threshold}.
+\end{quote}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+Technical Skills
+
+\textbf{Languages}: C, C++, Java, Javascript , Python.
+
+\textbf{Technologies}:HTML , CSS3 , ReactJS, Tailwind CSS , Bootstrap ,
+Ant design , DBMS , SQL , version control system,github
+\textbf{Libraries}:ChartJS , Animation on scroll(AOS) , Xarrow , GSAP ,
+Slick Carousel.
+
+Achievements
+
+• Solved \textbf{150+ problems} on platform like \textbf{GeeksForGeeks},
+\textbf{Leetcode} and \textbf{Hackerrank}.
+
+• \textbf{5 star} in \textbf{Java} at \textbf{Hackerrank}.
+
+Languages
+
+English , Hindi , Kannada \& Tulu
+\end{quote}
+
+\end{document}
