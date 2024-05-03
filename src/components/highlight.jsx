@@ -1,5 +1,5 @@
 import { useGSAP } from '@gsap/react'
-import React from 'react';
+// import React from 'react';
 import { useRef } from 'react';
 import gsap from "gsap";
 import {ScrollTrigger} from "gsap/all";
@@ -38,7 +38,7 @@ useGSAP(()=>{
     <>
     <section id='highlights' className='w-full h-full common-padding bg-zinc' ref={highlightref}>
       <div className='screen-max-width'>
-        <div className='w-full flex flex-row lg:items-end items-center md:items-baseline flex-wrap justify-between gap-8'>
+        <div className='w-full flex flex-row lg:items-end items-center md:items-baseline flex-wrap justify-between md:gap-4 gap-1 lg:gap-8'>
           <h1 className='section-heading' id='title'>
             Get the highlights.
           </h1>

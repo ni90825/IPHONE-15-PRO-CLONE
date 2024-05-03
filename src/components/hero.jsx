@@ -1,6 +1,6 @@
 import { useGSAP } from '@gsap/react';
 import gsap from "gsap";
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import smallsizevideo from "../../public/assets/videos/smallHero.mp4";
 import bigsizevideo from "../../public/assets/videos/hero.mp4";
 
