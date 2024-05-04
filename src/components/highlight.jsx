@@ -36,13 +36,13 @@ useGSAP(()=>{
 },[])
   return (
     <>
-    <section id='highlights' className='w-full h-full common-padding bg-zinc' ref={highlightref}>
+    <section id='highlights' className='w-full h-full common-padding1  bg-zinc' ref={highlightref}>
       <div className='screen-max-width'>
-        <div className='w-full flex flex-row lg:items-end items-center md:items-baseline flex-wrap justify-between md:gap-4 gap-1 lg:gap-8'>
+        <div className='w-full flex flex-row lg:items-end items-center md:items-baseline flex-wrap justify-between md:gap-4 gap-1 lg:gap-8 sm:px-10 px-5'>
           <h1 className='section-heading' id='title'>
             Get the highlights.
           </h1>
-          <div className='flex flex-row gap-8'>
+          <div className='flex flex-row md:gap-8 flex-wrap gap-3'>
           <div className='flex  flex-row gap-2 item-baseline link' >
             <p >Watch the film</p>
             <img src={watchimage}></img>
