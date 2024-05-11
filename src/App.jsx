@@ -9,8 +9,7 @@ import Model from './components/model.jsx';
 import * as Sentry from "@sentry/react"
 
 function App() {
-  // return <button onClick={() => methodDoesNotExist()}>Break the world</button>;
-
+  
   return (
     <>
     
