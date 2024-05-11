@@ -34,6 +34,9 @@ canvas {
   max-width: 1120px;
 }
 
+#circle{
+  left:0%;
+}
 @layer utilities {
   .flex-center {
     @apply flex items-center justify-center
@@ -56,7 +59,7 @@ canvas {
   }
 
   .size-btn {
-    @apply w-10 h-10 text-sm flex justify-center items-center bg-white text-black rounded-full transition-all
+    @apply w-10 h-10 text-sm flex justify-center items-center text-black rounded-full transition-all
   }
 
   .common-padding {

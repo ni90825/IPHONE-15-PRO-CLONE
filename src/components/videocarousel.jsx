@@ -90,7 +90,7 @@ onComplete:()=>{
           }
       })
       const animupdate = () =>{
-        anim.progress(videoRef.current[videoId].currentTime / hightlightsSlides[videoId].videoDuration
+        anim.progress(videoRef?.current[videoId]?.currentTime / hightlightsSlides[videoId]?.videoDuration
       )
     }
     if(isPlaying){
@@ -190,7 +190,7 @@ onClick={()=>{
       // if(isPlaying){
         setVideo((prevVideo)=>({prevVideo,isLastVideo:false}))
         if(index === videoId){
-          items.currentTime=0;
+          // items.currentTime=0;
           items.pause();
           videoDivRef.current[index].style.width="12px";
           videoSpanRef.current[index].style.width="0%";
